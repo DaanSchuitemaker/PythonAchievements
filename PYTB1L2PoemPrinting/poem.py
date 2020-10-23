@@ -1,0 +1,13 @@
+vers1 = 'Ik ben Daan Schuitemaker.'
+vers2 = 'Ik ben zeker geen afhaker.'
+vers3 = 'Ik woon in Enkhuizen.'
+vers4 = 'Een plaats met een of twee sluizen.'
+vers5 = 'Een van mijn hobbys is voetballen.'
+vers6 = 'Op het veld sta ik altijd lekker te knallen.'
+vers7 = 'Daarnaast speel ik veel games.'
+vers8 = 'Gelukkig krijg ik bij de meeste spellen genoeg frames.'
+vers9 = 'Mijn favoriete game is Rocket League.'
+vers10 = 'Regelmatig heb ik daarin een win streak.'
+vers11 = 'Ook luister ik vaak naar muziek.'
+vers12 = 'Mijn muzieksmaak is niet al te uniek.'
+print(vers1,vers2,vers3,vers4,vers5,vers6,vers7,vers8,vers9,vers10,vers11,vers12)
