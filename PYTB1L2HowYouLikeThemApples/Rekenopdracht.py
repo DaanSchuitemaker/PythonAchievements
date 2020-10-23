@@ -1,26 +1,28 @@
 trees = 333
-print(trees)
+print("aantal bomen:", trees)
 shadedTrees = 333 / 2 / 3
-print(shadedTrees)
+print("aantal bomen in schaduw:", shadedTrees)
 sunnyTrees = 333 / 3
-print(sunnyTrees)
+print("aantal bomen in zon", sunnyTrees)
 
 shadeOutputModifier  = 0.8
-print(shadeOutputModifier)
 
 sunnyTreeOutput = 146
-print(sunnyTreeOutput)
+print("aantal appels per boom in zon:", sunnyTreeOutput)
 shadedTreeOutput = 146 * shadeOutputModifier
-print(shadedTreeOutput)
+print("aantal appels per boom in schaduw:", shadedTreeOutput)
 
 sunnyOutput = sunnyTrees * sunnyTreeOutput
-print(sunnyOutput)
+print("totaal aantal appels van bomen in zon:", sunnyOutput)
 shadedOutput = shadedTrees * shadedTreeOutput
-print(shadedOutput)
+print("totaal aantal appels van bomen in schaduw:", shadedOutput)
 totalOutput = sunnyOutput + shadedOutput
-print(totalOutput)
+print("totaal aantal appels:", totalOutput)
 
 owners = 4
-print(owners)
+print("aantal eigenaren:", owners)
+
+myCut = totalOutput / owners
+print("aantal appels van mij:", myCut)
 
 
